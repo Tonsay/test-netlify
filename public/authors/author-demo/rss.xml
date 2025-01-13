@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="//localhost:1313/authors/author-demo/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="//localhost:1313/authors/author-demo/rss.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        <description>Demonstration of an author.</description>
+
+        
+            <language>en-us</language>
+        
+
+        
+
+        <link>//localhost:1313/authors/author-demo/</link>
+
+        
+
+        <title>Author Demo · Authors · Paige</title>
+
+        
+
+        
+    </channel>
+</rss>

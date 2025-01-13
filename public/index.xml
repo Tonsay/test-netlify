@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HDictionary</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on HDictionary</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 May 2024 01:40:13 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Dictionary</title>
+      <link>//localhost:1313/menu/about-hdictionary/</link>
+      <pubDate>Mon, 06 May 2024 01:40:13 +0000</pubDate>
+      <guid>//localhost:1313/menu/about-hdictionary/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-the-hogwarts-dictionary&#34;&gt;Welcome to the Hogwarts Dictionary&lt;/h2&gt;&#xA;&lt;p&gt;Step into the magical realm of spells, charms, and enchantments! The Hogwarts Dictionary is your ultimate guide to exploring the rich and captivating world of wizardry. Whether you&amp;rsquo;re a first-year curious to learn your &lt;em&gt;Lumos&lt;/em&gt; from your &lt;em&gt;Nox&lt;/em&gt;, or a seasoned wizard seeking deeper insights into advanced spells, this enchanting library has something for everyone. Here, the mysteries of the magical arts come to life, offering you a glimpse into the spells that have shaped the wizarding world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exploring the Wizarding World</title>
+      <link>//localhost:1313/menu/exploring-the-wizarding-world/</link>
+      <pubDate>Sun, 05 May 2024 18:28:34 +0000</pubDate>
+      <guid>//localhost:1313/menu/exploring-the-wizarding-world/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-the-hogwarts-dictionary-exploring-the-wizarding-world&#34;&gt;Welcome to the Hogwarts Dictionary: Exploring the Wizarding World!&lt;/h2&gt;&#xA;&lt;p&gt;Step into a world of magic and wonder as you explore the wizarding world through the Hogwarts Dictionary. This enchanting resource is your guide to the rich tapestry of spells, charms, and enchantments that make the magical realm so extraordinary. Whether you’re an aspiring witch or wizard eager to learn the basics, or a devoted Potterhead seeking deeper insights into advanced magic, this is your gateway to unlocking the mysteries of spellcasting.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

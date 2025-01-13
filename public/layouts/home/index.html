@@ -1,0 +1,1105 @@
+
+
+<!doctype html>
+
+
+
+
+
+
+<html  data-paige="Paige theme from https://github.com/willfaught/paige"   lang="en-us" >
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+    
+
+<meta charset="utf-8">
+
+
+
+
+    <meta content="Demonstration of the Paige home layout." name="description">
+
+
+
+    <meta content="home, layouts, paige" name="keywords">
+
+
+<meta content="#0d6efd" name="msapplication-TileColor">
+
+
+    <meta content="/browserconfig.xml" name="msapplication-config">
+
+
+<meta content="https://github.com/willfaught/paige" name="theme">
+<meta content="#0d6efd" name="theme-color">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+<meta property="og:url" content="//localhost:1313/layouts/home/">
+  <meta property="og:site_name" content="HDictionary">
+  <meta property="og:title" content="Home Layout">
+  <meta property="og:description" content="Demonstration of the Paige home layout.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="layouts">
+    <meta property="article:tag" content="Home">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Home Layout">
+  <meta name="twitter:description" content="Demonstration of the Paige home layout.">
+
+
+
+    
+        <title>Home Layout · Layouts · Paige</title>
+    
+
+    
+
+
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+
+
+
+    <link href="/favicon.ico" rel="shortcut icon">
+
+
+
+    <link href="/favicon.png" rel="icon" type="image/png">
+
+
+
+    <link href="/favicon.svg" rel="icon" type="image/svg+xml">
+
+
+
+    <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+
+
+
+    <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+
+
+
+    <link color="#0d6efd" href="/safari-pinned-tab.svg" rel="mask-icon">
+
+
+
+    <link href="/site.webmanifest" rel="manifest">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+        
+        
+    
+
+    
+        
+    
+
+    
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap/paige.scss"   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap-icons/bootstrap-icons.min.540116b7267d4b2410c74086ae6497566928c6d5715900be7ce7279ad45addcd.css"  integrity="sha256-VAEWtyZ9SyQQx0CGrmSXVmkoxtVxWQC&#43;fOcnmtRa3c0="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+
+    
+
+<style>
+
+
+.paige-figure-numbered {
+    counter-increment: paige-figure-numbered;
+}
+
+.paige-figure-numbered > div > figure > figcaption::before {
+    content: "Figure " counter(paige-figure-numbered) ": ";
+}
+
+.paige-figure-numbered > div > figure > figcaption:empty::before {
+    content: "Figure " counter(paige-figure-numbered);
+}
+
+.paige-header-link {
+    opacity: 0;
+    margin-left: 0.5rem;
+    position: absolute;
+    transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
+}
+
+.paige-header-link::after {
+    content: "#";
+}
+
+.paige-quote .blockquote-footer {
+    margin-top: 0;
+}
+
+.paige-quote blockquote {
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+blockquote {
+    padding: 0.5rem 1rem;
+    border-left: 0.25rem solid var(--bs-border-color);
+    border-right: 0.25rem solid var(--bs-body-bg);
+}
+
+td,
+th {
+    padding: 0.25rem;
+}
+
+.highlight .chroma .hl,
+.highlight .chroma .lnt {
+    display: flex;
+}
+
+.paige-row-narrow:not(:last-child),
+.paige-figure .paige-quote,
+.paige-figure .paige-video,
+.paige-figure .highlight pre.chroma,
+.paige-figure .highlight .chroma pre,
+.paige-figure .paige-quote blockquote,
+.paige-figure figure > div > :last-child,
+.paige-gallery .paige-figure,
+.paige-gallery .paige-image,
+blockquote > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.paige-figure,
+.paige-gallery,
+.paige-image,
+.paige-quote,
+.paige-row-narrow:last-child,
+.paige-row-wide,
+.paige-video,
+#paige-content > *,
+table {
+    margin-bottom: 1rem;
+}
+
+.paige-header-link:focus,
+.paige-header-link:hover,
+:hover > .paige-header-link,
+:target > .paige-header-link {
+    opacity: 1;
+}
+
+
+
+
+    @media (prefers-color-scheme: dark) {
+        /* Background */ .bg { color: #c9d1d9; background-color: var(--bs-body-bg); }
+/* PreWrapper */ .chroma { color: #c9d1d9; background-color: var(--bs-body-bg); }
+/* Other */ .chroma .x {  }
+/* Error */ .chroma .err { color: #f85149 }
+/* CodeLine */ .chroma .cl {  }
+/* LineLink */ .chroma .lnlinks { outline: none; text-decoration: none; color: inherit }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+/* LineHighlight */ .chroma .hl { background-color: #4f4f4d }
+/* LineNumbersTable */ .chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #64686c }
+/* LineNumbers */ .chroma .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #6e7681 }
+/* Line */ .chroma .line { display: flex; }
+/* Keyword */ .chroma .k { color: #ff7b72 }
+/* KeywordConstant */ .chroma .kc { color: #79c0ff }
+/* KeywordDeclaration */ .chroma .kd { color: #ff7b72 }
+/* KeywordNamespace */ .chroma .kn { color: #ff7b72 }
+/* KeywordPseudo */ .chroma .kp { color: #79c0ff }
+/* KeywordReserved */ .chroma .kr { color: #ff7b72 }
+/* KeywordType */ .chroma .kt { color: #ff7b72 }
+/* Name */ .chroma .n {  }
+/* NameAttribute */ .chroma .na {  }
+/* NameBuiltin */ .chroma .nb {  }
+/* NameBuiltinPseudo */ .chroma .bp {  }
+/* NameClass */ .chroma .nc { color: #f0883e; font-weight: bold }
+/* NameConstant */ .chroma .no { color: #79c0ff; font-weight: bold }
+/* NameDecorator */ .chroma .nd { color: #d2a8ff; font-weight: bold }
+/* NameEntity */ .chroma .ni { color: #ffa657 }
+/* NameException */ .chroma .ne { color: #f0883e; font-weight: bold }
+/* NameFunction */ .chroma .nf { color: #d2a8ff; font-weight: bold }
+/* NameFunctionMagic */ .chroma .fm {  }
+/* NameLabel */ .chroma .nl { color: #79c0ff; font-weight: bold }
+/* NameNamespace */ .chroma .nn { color: #ff7b72 }
+/* NameOther */ .chroma .nx {  }
+/* NameProperty */ .chroma .py { color: #79c0ff }
+/* NameTag */ .chroma .nt { color: #7ee787 }
+/* NameVariable */ .chroma .nv { color: #79c0ff }
+/* NameVariableClass */ .chroma .vc {  }
+/* NameVariableGlobal */ .chroma .vg {  }
+/* NameVariableInstance */ .chroma .vi {  }
+/* NameVariableMagic */ .chroma .vm {  }
+/* Literal */ .chroma .l { color: #a5d6ff }
+/* LiteralDate */ .chroma .ld { color: #79c0ff }
+/* LiteralString */ .chroma .s { color: #a5d6ff }
+/* LiteralStringAffix */ .chroma .sa { color: #79c0ff }
+/* LiteralStringBacktick */ .chroma .sb { color: #a5d6ff }
+/* LiteralStringChar */ .chroma .sc { color: #a5d6ff }
+/* LiteralStringDelimiter */ .chroma .dl { color: #79c0ff }
+/* LiteralStringDoc */ .chroma .sd { color: #a5d6ff }
+/* LiteralStringDouble */ .chroma .s2 { color: #a5d6ff }
+/* LiteralStringEscape */ .chroma .se { color: #79c0ff }
+/* LiteralStringHeredoc */ .chroma .sh { color: #79c0ff }
+/* LiteralStringInterpol */ .chroma .si { color: #a5d6ff }
+/* LiteralStringOther */ .chroma .sx { color: #a5d6ff }
+/* LiteralStringRegex */ .chroma .sr { color: #79c0ff }
+/* LiteralStringSingle */ .chroma .s1 { color: #a5d6ff }
+/* LiteralStringSymbol */ .chroma .ss { color: #a5d6ff }
+/* LiteralNumber */ .chroma .m { color: #a5d6ff }
+/* LiteralNumberBin */ .chroma .mb { color: #a5d6ff }
+/* LiteralNumberFloat */ .chroma .mf { color: #a5d6ff }
+/* LiteralNumberHex */ .chroma .mh { color: #a5d6ff }
+/* LiteralNumberInteger */ .chroma .mi { color: #a5d6ff }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #a5d6ff }
+/* LiteralNumberOct */ .chroma .mo { color: #a5d6ff }
+/* Operator */ .chroma .o { color: #ff7b72; font-weight: bold }
+/* OperatorWord */ .chroma .ow { color: #ff7b72; font-weight: bold }
+/* Punctuation */ .chroma .p {  }
+/* Comment */ .chroma .c { color: #8b949e; font-style: italic }
+/* CommentHashbang */ .chroma .ch { color: #8b949e; font-style: italic }
+/* CommentMultiline */ .chroma .cm { color: #8b949e; font-style: italic }
+/* CommentSingle */ .chroma .c1 { color: #8b949e; font-style: italic }
+/* CommentSpecial */ .chroma .cs { color: #8b949e; font-weight: bold; font-style: italic }
+/* CommentPreproc */ .chroma .cp { color: #8b949e; font-weight: bold; font-style: italic }
+/* CommentPreprocFile */ .chroma .cpf { color: #8b949e; font-weight: bold; font-style: italic }
+/* Generic */ .chroma .g {  }
+/* GenericDeleted */ .chroma .gd { color: #ffa198; background-color: #490202 }
+/* GenericEmph */ .chroma .ge { font-style: italic }
+/* GenericError */ .chroma .gr { color: #ffa198 }
+/* GenericHeading */ .chroma .gh { color: #79c0ff; font-weight: bold }
+/* GenericInserted */ .chroma .gi { color: #56d364; background-color: #0f5323 }
+/* GenericOutput */ .chroma .go { color: #8b949e }
+/* GenericPrompt */ .chroma .gp { color: #8b949e }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #79c0ff }
+/* GenericTraceback */ .chroma .gt { color: #ff7b72 }
+/* GenericUnderline */ .chroma .gl { text-decoration: underline }
+/* TextWhitespace */ .chroma .w { color: #6e7681 }
+
+    }
+
+    @media (prefers-color-scheme: light) {
+        /* Background */ .bg { background-color: #ffffff; }
+/* PreWrapper */ .chroma { background-color: #ffffff; }
+/* Other */ .chroma .x {  }
+/* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
+/* CodeLine */ .chroma .cl {  }
+/* LineLink */ .chroma .lnlinks { outline: none; text-decoration: none; color: inherit }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+/* LineHighlight */ .chroma .hl { background-color: #ffffcc }
+/* LineNumbersTable */ .chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* LineNumbers */ .chroma .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* Line */ .chroma .line { display: flex; }
+/* Keyword */ .chroma .k { color: #000000; font-weight: bold }
+/* KeywordConstant */ .chroma .kc { color: #000000; font-weight: bold }
+/* KeywordDeclaration */ .chroma .kd { color: #000000; font-weight: bold }
+/* KeywordNamespace */ .chroma .kn { color: #000000; font-weight: bold }
+/* KeywordPseudo */ .chroma .kp { color: #000000; font-weight: bold }
+/* KeywordReserved */ .chroma .kr { color: #000000; font-weight: bold }
+/* KeywordType */ .chroma .kt { color: #445588; font-weight: bold }
+/* Name */ .chroma .n {  }
+/* NameAttribute */ .chroma .na { color: #008080 }
+/* NameBuiltin */ .chroma .nb { color: #0086b3 }
+/* NameBuiltinPseudo */ .chroma .bp { color: #999999 }
+/* NameClass */ .chroma .nc { color: #445588; font-weight: bold }
+/* NameConstant */ .chroma .no { color: #008080 }
+/* NameDecorator */ .chroma .nd { color: #3c5d5d; font-weight: bold }
+/* NameEntity */ .chroma .ni { color: #800080 }
+/* NameException */ .chroma .ne { color: #990000; font-weight: bold }
+/* NameFunction */ .chroma .nf { color: #990000; font-weight: bold }
+/* NameFunctionMagic */ .chroma .fm {  }
+/* NameLabel */ .chroma .nl { color: #990000; font-weight: bold }
+/* NameNamespace */ .chroma .nn { color: #555555 }
+/* NameOther */ .chroma .nx {  }
+/* NameProperty */ .chroma .py {  }
+/* NameTag */ .chroma .nt { color: #000080 }
+/* NameVariable */ .chroma .nv { color: #008080 }
+/* NameVariableClass */ .chroma .vc { color: #008080 }
+/* NameVariableGlobal */ .chroma .vg { color: #008080 }
+/* NameVariableInstance */ .chroma .vi { color: #008080 }
+/* NameVariableMagic */ .chroma .vm {  }
+/* Literal */ .chroma .l {  }
+/* LiteralDate */ .chroma .ld {  }
+/* LiteralString */ .chroma .s { color: #dd1144 }
+/* LiteralStringAffix */ .chroma .sa { color: #dd1144 }
+/* LiteralStringBacktick */ .chroma .sb { color: #dd1144 }
+/* LiteralStringChar */ .chroma .sc { color: #dd1144 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #dd1144 }
+/* LiteralStringDoc */ .chroma .sd { color: #dd1144 }
+/* LiteralStringDouble */ .chroma .s2 { color: #dd1144 }
+/* LiteralStringEscape */ .chroma .se { color: #dd1144 }
+/* LiteralStringHeredoc */ .chroma .sh { color: #dd1144 }
+/* LiteralStringInterpol */ .chroma .si { color: #dd1144 }
+/* LiteralStringOther */ .chroma .sx { color: #dd1144 }
+/* LiteralStringRegex */ .chroma .sr { color: #009926 }
+/* LiteralStringSingle */ .chroma .s1 { color: #dd1144 }
+/* LiteralStringSymbol */ .chroma .ss { color: #990073 }
+/* LiteralNumber */ .chroma .m { color: #009999 }
+/* LiteralNumberBin */ .chroma .mb { color: #009999 }
+/* LiteralNumberFloat */ .chroma .mf { color: #009999 }
+/* LiteralNumberHex */ .chroma .mh { color: #009999 }
+/* LiteralNumberInteger */ .chroma .mi { color: #009999 }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #009999 }
+/* LiteralNumberOct */ .chroma .mo { color: #009999 }
+/* Operator */ .chroma .o { color: #000000; font-weight: bold }
+/* OperatorWord */ .chroma .ow { color: #000000; font-weight: bold }
+/* Punctuation */ .chroma .p {  }
+/* Comment */ .chroma .c { color: #999988; font-style: italic }
+/* CommentHashbang */ .chroma .ch { color: #999988; font-style: italic }
+/* CommentMultiline */ .chroma .cm { color: #999988; font-style: italic }
+/* CommentSingle */ .chroma .c1 { color: #999988; font-style: italic }
+/* CommentSpecial */ .chroma .cs { color: #999999; font-weight: bold; font-style: italic }
+/* CommentPreproc */ .chroma .cp { color: #999999; font-weight: bold; font-style: italic }
+/* CommentPreprocFile */ .chroma .cpf { color: #999999; font-weight: bold; font-style: italic }
+/* Generic */ .chroma .g {  }
+/* GenericDeleted */ .chroma .gd { color: #000000; background-color: #ffdddd }
+/* GenericEmph */ .chroma .ge { color: #000000; font-style: italic }
+/* GenericError */ .chroma .gr { color: #aa0000 }
+/* GenericHeading */ .chroma .gh { color: #999999 }
+/* GenericInserted */ .chroma .gi { color: #000000; background-color: #ddffdd }
+/* GenericOutput */ .chroma .go { color: #888888 }
+/* GenericPrompt */ .chroma .gp { color: #555555 }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #aaaaaa }
+/* GenericTraceback */ .chroma .gt { color: #aa0000 }
+/* GenericUnderline */ .chroma .gl { text-decoration: underline }
+/* TextWhitespace */ .chroma .w { color: #bbbbbb }
+
+    }
+
+
+@media (prefers-reduced-motion: reduce) {
+    .paige-header-link {
+        transition: none;
+    }
+}
+
+
+
+
+</style>
+
+
+    
+</head>
+
+    <body>
+
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col mt-3" id="paige-site">
+                    
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    <header id="paige-site-header">
+        
+
+        
+            <div class="display-1 fw-bold  paige-row-wide text-center" id="paige-site-title">HDictionary</div>
+        
+
+        
+
+        
+            
+                
+
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+
+                
+
+                <nav aria-label="Menu" class="paige-row-wide" id="paige-menu">
+                    <ul class="align-items-center justify-content-center nav ">
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/authors/" >Authors</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/categories/" >Categories</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/content/" >Content</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/customization/" >Customization</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/customizations/" >Customizations</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  aria-current="page"  class=" active  fw-bold text-body-emphasis   nav-link  text-decoration-underline " href="/layouts/" >Layouts</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/" >Paige</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/series/" >Series</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/shortcodes/" >Shortcodes</a>
+                            </li>
+                        
+                            
+                            
+                            
+                            
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/tags/" >Tags</a>
+                            </li>
+                        
+                    </ul>
+                </nav>
+            
+        
+
+        
+            <nav aria-label="Breadcrumbs" class="paige-row-wide" id="paige-breadcrumbs">
+                <div class="d-flex justify-content-center">
+                    <ol class="breadcrumb mb-0">
+                        
+
+                        
+
+                        
+                            
+
+                            
+
+                            <li class="breadcrumb-item"><a href="/">Paige</a></li>
+                        
+                            
+
+                            
+
+                            <li class="breadcrumb-item"><a href="/layouts/">Layouts</a></li>
+                        
+                    </ol>
+                </div>
+            </nav>
+        
+
+        
+    </header>
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+        
+    
+
+
+
+
+<article class="paige-kind-page paige-published" id="paige-page">
+    <div class="align-items-center d-flex flex-column">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <header class="mw-100" id="paige-page-header">
+        <div class="align-items-center d-flex flex-column">
+            
+
+            
+                <h1 class="fw-bold" id="paige-page-title">Home Layout</h1>
+            
+
+            
+                <p class="lead paige-row-wide" id="paige-page-description">Demonstration of the Paige home layout.</p>
+            
+
+            
+                <div id="paige-metadata">
+                    
+                        <p class=" paige-row-narrow  text-center  text-secondary " id="paige-keywords">
+                            <a class="link-secondary paige-keyword paige-keyword-tag" href="/tags/home/">Home</a> · <a class="link-secondary paige-keyword paige-keyword-category" href="/categories/layouts/">Layouts</a> · <a class="link-secondary paige-keyword paige-keyword-category" href="/categories/paige/">Paige</a>
+                        </p>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                        <p class="paige-row-narrow text-center text-secondary" id="paige-reading-time">2 minutes</p>
+                    
+                </div>
+            
+
+            
+
+            
+
+            
+        </div>
+    </header>
+
+
+
+        
+            <main class="mw-100" id="paige-content"><p>Paige provides a <code>paige/home</code> layout for a home page.</p>
+<p>These are the parameters for this page:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">authors</span>: [<span style="color:#e6db74">&#34;will-faught&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#f92672">categories</span>: [<span style="color:#e6db74">&#34;layouts&#34;</span>, <span style="color:#e6db74">&#34;paige&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#f92672">description</span>: <span style="color:#e6db74">&#34;Demonstration of the Paige home layout.&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">layout</span>: <span style="color:#e6db74">&#34;paige/home&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">paige</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">home</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">blurb</span>: <span style="color:#e6db74">&#34;This is the blurb.&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">greeting</span>: <span style="color:#e6db74">&#34;This is the greeting&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">image</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">stretch</span>: <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://images.unsplash.com/photo-1490604001847-b712b0c2f967?w=1296&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">social</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">discord</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-discord&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Discord&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://discord.com/users/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">dribbble</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-dribbble&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Dribbble&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://dribbble.com/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">email</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-envelope&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;E-mail&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;mailto:username@example.com&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">facebook</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-facebook&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Facebook&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://facebook.com/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">github</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-github&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;GitHub&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://github.com/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">instagram</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-instagram&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Instagram&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://instagram.com/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">linkedin</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-linkedin&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;LinkedIn&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://linkedin.com/in/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">medium</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-medium&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Medium&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://medium.com/@username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">pinterest</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-pinterest&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Pinterest&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://pinterest.com/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">quora</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-quora&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Quora&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://quora.com/profile/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">reddit</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-reddit&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Reddit&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://reddit.com/u/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">spotify</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-spotify&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Spotify&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://open.spotify.com/user/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">stackoverflow</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-stack-overflow&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Stack Overflow&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://stackoverflow.com/users/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">strava</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-strava&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Strava&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://strava.com/athletes/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">twitch</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-twitch&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Twitch&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://twitch.tv/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">twitter</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-twitter&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Twitter&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://twitter.com/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">vimeo</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-vimeo&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Vimeo&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://vimeo.com/username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">wordpress</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-wordpress&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Wordpress&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://username.wordpress.com&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">yelp</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-yelp&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;Yelp&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://yelp.com/user_details?userid=username&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">youtube</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">class</span>: <span style="color:#e6db74">&#34;bi bi-youtube&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;YouTube&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#e6db74">&#34;https://youtube.com/user/username&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">tags</span>: [<span style="color:#e6db74">&#34;home&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;Home Layout&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">weight</span>: <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div></main>
+        
+
+        
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    <footer class="mw-100" id="paige-page-footer">
+        
+
+        
+
+        
+            <div id="paige-siblings">
+                
+                    <div class="paige-row-narrow text-center text-secondary" id="paige-next"><a class="link-secondary" href="//localhost:1313/layouts/search/">Search Layout</a> &rsaquo;</div>
+                
+
+                
+            </div>
+        
+
+        
+    </footer>
+
+
+    </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    <footer id="paige-site-footer">
+        
+
+        
+
+        
+
+        
+            <p class="paige-row-narrow text-center text-secondary" id="paige-credit">&lt;a class=&ldquo;link-secondary text-decoration-none&rdquo; href=&quot;{{ $theme }}&quot; {{ with $target }} target=&quot;{{ . }}&quot; {{ end }}&gt;Paige Theme<!-- raw HTML omitted --></p>
+        
+
+        
+    </footer>
+
+
+
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+<script  crossorigin="anonymous"   defer  integrity="sha256-gfPiYYSP&#43;RNtNeRBt45mJombFJmNf0V0Ipu785Obi0M="   referrerpolicy="no-referrer"  src="/js/paige/bootstrap/bootstrap.bundle.min.81f3e261848ff9136d35e441b78e6626899b14998d7f4574229bbbf3939b8b43.js" ></script>
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+<noscript>JavaScript is required</noscript>
+
+
+        
+    </body>
+</html>
