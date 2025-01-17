@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Search"
 date: 2024-05-12T12:44:32-05:00
 draft: false
 image: ''
